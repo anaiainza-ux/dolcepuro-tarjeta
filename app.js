@@ -9,8 +9,8 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // Aquí es donde conectarás tu frontend con tu base de datos de Supabase.
 // Reemplaza los textos entre comillas con tus propias credenciales.
-const supabaseUrl = 'TU_URL_DE_SUPABASE'; // La encuentras en tu proyecto de Supabase > Settings > API
-const supabaseKey = 'TU_CLAVE_ANON_DE_SUPABASE'; // La encuentras en el mismo lugar que la URL
+const supabaseUrl = 'https://whqitpmokmgphrgnouda.supabase.co'; // La encuentras en tu proyecto de Supabase > Settings > API
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndocWl0cG1va21ncGhyZ25vdWRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY4NjQwMzIsImV4cCI6MjA3MjQ0MDAzMn0.veB0UGVuiAeLDU4w7wL2vadM3AmxIR1bvn2Zm6ct6Nw'; // La encuentras en el mismo lugar que la URL
 
 // Creamos el "cliente" de Supabase. Este objeto es el que nos permitirá
 // hacer consultas (pedir datos) y mutaciones (cambiar datos) a nuestra base de datos.
